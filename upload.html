@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload - Art & Photo Gallery</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">Art & Photo Gallery</h1>
+      <nav id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="upload.html" class="active">Upload</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="menu-icon" id="menu-icon">☰</div>
+    </div>
+  </header>
+
+  <section class="upload-section">
+    <h2>Upload Your Artwork</h2>
+    <form>
+      <label>Title</label>
+      <input type="text" placeholder="Enter artwork title" required>
+
+      <label>Description</label>
+      <textarea placeholder="Enter a short description" rows="4"></textarea>
+
+      <label>Select Image</label>
+      <input type="file" accept="image/*" required>
+
+      <button type="submit" class="btn">Upload</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Art & Photo Gallery | All Rights Reserved</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
