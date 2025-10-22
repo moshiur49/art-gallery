@@ -21,7 +21,7 @@ session_start();
     <div class="container nav-container">
       <h1 class="logo">Art & Photo Gallery</h1>
       <nav id="nav-links">
-        <a href="index.html" class="active">Home</a>
+        <a href="index.php" class="active">Home</a>
         <a href="gallery.php">Gallery</a>
         <a href="upload.html">Upload</a>
         <a href="about.html">About</a>
@@ -38,7 +38,7 @@ session_start();
   <section class="hero">
     <h2>Welcome to the Art & Photo Gallery</h2>
     <p>Showcasing the creativity of artists and photographers around the world.</p>
-    <a href="gallery.html" class="btn">Explore Gallery</a>
+    <a href="gallery.php" class="btn">Explore Gallery</a>
     <div style="margin-top:30px;text-align:center;">
       <?php if (!isset($_SESSION['user'])): ?>
         <a href="login.php" class="btn" style="margin-right:15px;">Login</a>

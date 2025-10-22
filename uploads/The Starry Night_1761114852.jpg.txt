@@ -1,0 +1,1 @@
+{"title":"The Starry Night","description":"Vincent Van Gogh's Most Famous Painting.","uploaded_at":"2025-10-22T08:34:12+02:00"}
