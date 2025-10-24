@@ -97,7 +97,10 @@ $msg = isset($_GET['msg']) ? $_GET['msg'] : '';
             'assets/images/art1.jpg',
             'assets/images/art2.jpg',
             'assets/images/art3.jpg',
-            'assets/images/art4.jpg'
+            'assets/images/art4.jpg',
+            'assets/images/art5.jpg',
+            'assets/images/art6.jpg'
+            
           ];
           foreach ($featured as $img): ?>
             <div class="thumb">
